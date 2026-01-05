@@ -1,4 +1,6 @@
-const API_BASE_URL = 'http://localhost:3001/api';
+const API_BASE_URL = import.meta.env.PROD
+    ? '/api'
+    : 'http://localhost:3001/api';
 
 export const searchProducts = async (query, lat, lng) => {
     const response = await fetch(`${API_BASE_URL}/products/search?q=${encodeURIComponent(query)}&lat=${lat}&lng=${lng}`);
