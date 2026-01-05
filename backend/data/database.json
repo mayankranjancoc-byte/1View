@@ -1,0 +1,699 @@
+{
+  "stores": [
+    {
+      "id": "store-1",
+      "name": "TechHub Electronics",
+      "address": "MG Road, Sector 28, Delhi",
+      "latitude": 28.6139,
+      "longitude": 77.209,
+      "rating": 4.5,
+      "phone": "+91 98765 43210",
+      "hours": "10 AM - 9 PM",
+      "ownerId": "retailer-1"
+    },
+    {
+      "id": "store-2",
+      "name": "Gadget Galaxy",
+      "address": "Connaught Place, New Delhi",
+      "latitude": 28.6304,
+      "longitude": 77.2177,
+      "rating": 4.7,
+      "phone": "+91 98765 43211",
+      "hours": "9 AM - 10 PM",
+      "ownerId": "retailer-2"
+    },
+    {
+      "id": "store-3",
+      "name": "Digital Dreams",
+      "address": "Nehru Place, South Delhi",
+      "latitude": 28.5494,
+      "longitude": 77.2501,
+      "rating": 4.3,
+      "phone": "+91 98765 43212",
+      "hours": "10 AM - 8 PM",
+      "ownerId": "retailer-3"
+    },
+    {
+      "id": "store-4",
+      "name": "SmartBuy Store",
+      "address": "Lajpat Nagar, Delhi",
+      "latitude": 28.5677,
+      "longitude": 77.2431,
+      "rating": 4.6,
+      "phone": "+91 98765 43213",
+      "hours": "10 AM - 9 PM",
+      "ownerId": "retailer-4"
+    },
+    {
+      "id": "store-5",
+      "name": "Metro Electronics",
+      "address": "Karol Bagh, Central Delhi",
+      "latitude": 28.6519,
+      "longitude": 77.1903,
+      "rating": 4.4,
+      "phone": "+91 98765 43214",
+      "hours": "9:30 AM - 9:30 PM",
+      "ownerId": "retailer-5"
+    },
+    {
+      "id": "store-6",
+      "name": "QuickMart General Store",
+      "address": "Civil Lines, North Delhi",
+      "latitude": 28.6219,
+      "longitude": 77.2103,
+      "rating": 4.2,
+      "phone": "+91 98765 43220",
+      "hours": "8 AM - 11 PM",
+      "ownerId": "retailer-6"
+    },
+    {
+      "id": "store-7",
+      "name": "Daily Needs Shop",
+      "address": "Paharganj, Central Delhi",
+      "latitude": 28.6404,
+      "longitude": 77.2277,
+      "rating": 4,
+      "phone": "+91 98765 43221",
+      "hours": "7 AM - 10 PM",
+      "ownerId": "retailer-7"
+    },
+    {
+      "id": "store-8",
+      "name": "Stationery World",
+      "address": "Kalkaji, South Delhi",
+      "latitude": 28.5594,
+      "longitude": 77.2601,
+      "rating": 4.6,
+      "phone": "+91 98765 43222",
+      "hours": "10 AM - 9 PM",
+      "ownerId": "retailer-8"
+    },
+    {
+      "id": "store-9",
+      "name": "Mobile Accessories Point",
+      "address": "Defence Colony, South Delhi",
+      "latitude": 28.5777,
+      "longitude": 77.2531,
+      "rating": 4.4,
+      "phone": "+91 98765 43223",
+      "hours": "11 AM - 9 PM",
+      "ownerId": "retailer-9"
+    }
+  ],
+  "products": [
+    {
+      "id": "prod-1",
+      "name": "iPhone 15 Pro",
+      "category": "Smartphones",
+      "image": "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=400",
+      "storeId": "store-1",
+      "price": 129999,
+      "quantity": 15,
+      "offers": "10% off on weekends"
+    },
+    {
+      "id": "prod-2",
+      "name": "iPhone 15 Pro",
+      "category": "Smartphones",
+      "image": "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=400",
+      "storeId": "store-2",
+      "price": 127499,
+      "quantity": 8,
+      "offers": "Free AirPods with purchase"
+    },
+    {
+      "id": "prod-3",
+      "name": "iPhone 15 Pro",
+      "category": "Smartphones",
+      "image": "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=400",
+      "storeId": "store-4",
+      "price": 131999,
+      "quantity": 5,
+      "offers": null
+    },
+    {
+      "id": "prod-4",
+      "name": "MacBook Pro M3",
+      "category": "Laptops",
+      "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=400",
+      "storeId": "store-1",
+      "price": 199999,
+      "quantity": 7,
+      "offers": "Student discount available"
+    },
+    {
+      "id": "prod-5",
+      "name": "MacBook Pro M3",
+      "category": "Laptops",
+      "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=400",
+      "storeId": "store-2",
+      "price": 195999,
+      "quantity": 12,
+      "offers": null
+    },
+    {
+      "id": "prod-6",
+      "name": "MacBook Pro M3",
+      "category": "Laptops",
+      "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=400",
+      "storeId": "store-3",
+      "price": 198999,
+      "quantity": 4,
+      "offers": "Extended warranty free"
+    },
+    {
+      "id": "prod-7",
+      "name": "MacBook Pro M3",
+      "category": "Laptops",
+      "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=400",
+      "storeId": "store-5",
+      "price": 202999,
+      "quantity": 9,
+      "offers": null
+    },
+    {
+      "id": "prod-8",
+      "name": "Samsung Galaxy S24 Ultra",
+      "category": "Smartphones",
+      "image": "https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?w=400",
+      "storeId": "store-3",
+      "price": 119999,
+      "quantity": 20,
+      "offers": "Flat 15% off"
+    },
+    {
+      "id": "prod-9",
+      "name": "Samsung Galaxy S24 Ultra",
+      "category": "Smartphones",
+      "image": "https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?w=400",
+      "storeId": "store-5",
+      "price": 117999,
+      "quantity": 11,
+      "offers": null
+    },
+    {
+      "id": "prod-10",
+      "name": "Sony WH-1000XM5 Headphones",
+      "category": "Audio",
+      "image": "https://images.unsplash.com/photo-1546435770-a3e426bf472b?w=400",
+      "storeId": "store-1",
+      "price": 29999,
+      "quantity": 25,
+      "offers": null
+    },
+    {
+      "id": "prod-11",
+      "name": "Sony WH-1000XM5 Headphones",
+      "category": "Audio",
+      "image": "https://images.unsplash.com/photo-1546435770-a3e426bf472b?w=400",
+      "storeId": "store-2",
+      "price": 28499,
+      "quantity": 18,
+      "offers": "Buy 2 Get 1"
+    },
+    {
+      "id": "prod-12",
+      "name": "Sony WH-1000XM5 Headphones",
+      "category": "Audio",
+      "image": "https://images.unsplash.com/photo-1546435770-a3e426bf472b?w=400",
+      "storeId": "store-4",
+      "price": 30499,
+      "quantity": 14,
+      "offers": null
+    },
+    {
+      "id": "prod-13",
+      "name": "iPad Air M2",
+      "category": "Tablets",
+      "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=400",
+      "storeId": "store-2",
+      "price": 59999,
+      "quantity": 10,
+      "offers": "Free Apple Pencil"
+    },
+    {
+      "id": "prod-14",
+      "name": "iPad Air M2",
+      "category": "Tablets",
+      "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=400",
+      "storeId": "store-3",
+      "price": 61999,
+      "quantity": 6,
+      "offers": null
+    },
+    {
+      "id": "prod-15",
+      "name": "Dell XPS 15",
+      "category": "Laptops",
+      "image": "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?w=400",
+      "storeId": "store-4",
+      "price": 145999,
+      "quantity": 8,
+      "offers": "Office 365 included"
+    },
+    {
+      "id": "prod-16",
+      "name": "Dell XPS 15",
+      "category": "Laptops",
+      "image": "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?w=400",
+      "storeId": "store-5",
+      "price": 143999,
+      "quantity": 12,
+      "offers": null
+    },
+    {
+      "id": "prod-17",
+      "name": "USB-C Fast Charging Cable",
+      "category": "Accessories",
+      "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=400",
+      "storeId": "store-6",
+      "price": 499,
+      "quantity": 50,
+      "offers": "Buy 2 Get 1"
+    },
+    {
+      "id": "prod-18",
+      "name": "Transparent iPhone 15 Case",
+      "category": "Accessories",
+      "image": "https://images.unsplash.com/photo-1603351154351-5cf99bf43a6f?w=400",
+      "storeId": "store-9",
+      "price": 799,
+      "quantity": 30,
+      "offers": null
+    },
+    {
+      "id": "prod-19",
+      "name": "Wireless Mouse",
+      "category": "Electronics",
+      "image": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=400",
+      "storeId": "store-3",
+      "price": 699,
+      "quantity": 25,
+      "offers": null
+    },
+    {
+      "id": "prod-20",
+      "name": "AA Batteries (Pack of 4)",
+      "category": "General",
+      "image": "https://images.unsplash.com/photo-1628102491629-778571d893a3?w=400",
+      "storeId": "store-7",
+      "price": 199,
+      "quantity": 100,
+      "offers": null
+    },
+    {
+      "id": "prod-21",
+      "name": "Premium Notebook",
+      "category": "Stationery",
+      "image": "https://images.unsplash.com/photo-1544816155-12df9643f363?w=400",
+      "storeId": "store-8",
+      "price": 299,
+      "quantity": 40,
+      "offers": null
+    },
+    {
+      "id": "prod-22",
+      "name": "Ball Pens (Pack of 5)",
+      "category": "Stationery",
+      "image": "https://images.unsplash.com/photo-1585336261022-680e295ce3fe?w=400",
+      "storeId": "store-8",
+      "price": 99,
+      "quantity": 60,
+      "offers": null
+    },
+    {
+      "id": "prod-23",
+      "name": "Steel Water Bottle",
+      "category": "General",
+      "image": "https://images.unsplash.com/photo-1602143407151-011141957516?w=400",
+      "storeId": "store-6",
+      "price": 599,
+      "quantity": 20,
+      "offers": "10% off"
+    },
+    {
+      "id": "prod-24",
+      "name": "Bluetooth Earbuds",
+      "category": "Audio",
+      "image": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=400",
+      "storeId": "store-9",
+      "price": 1499,
+      "quantity": 15,
+      "offers": null
+    }
+  ],
+  "retailers": [
+    {
+      "id": "retailer-1",
+      "email": "techhub@example.com",
+      "password": "demo123",
+      "storeName": "TechHub Electronics"
+    },
+    {
+      "id": "retailer-2",
+      "email": "gadget@example.com",
+      "password": "demo123",
+      "storeName": "Gadget Galaxy"
+    },
+    {
+      "id": "retailer-3",
+      "email": "digital@example.com",
+      "password": "demo123",
+      "storeName": "Digital Dreams"
+    },
+    {
+      "id": "retailer-4",
+      "email": "smartbuy@example.com",
+      "password": "demo123",
+      "storeName": "SmartBuy Store"
+    },
+    {
+      "id": "retailer-5",
+      "email": "metro@example.com",
+      "password": "demo123",
+      "storeName": "Metro Electronics"
+    },
+    {
+      "id": "retailer-6",
+      "email": "quickmart@example.com",
+      "password": "demo123",
+      "storeName": "QuickMart General Store"
+    },
+    {
+      "id": "retailer-7",
+      "email": "dailyneeds@example.com",
+      "password": "demo123",
+      "storeName": "Daily Needs Shop"
+    },
+    {
+      "id": "retailer-8",
+      "email": "stationery@example.com",
+      "password": "demo123",
+      "storeName": "Stationery World"
+    },
+    {
+      "id": "retailer-9",
+      "email": "accessories@example.com",
+      "password": "demo123",
+      "storeName": "Mobile Accessories Point"
+    }
+  ],
+  "searches": [
+    {
+      "id": "search-1",
+      "query": "iphone 15 pro",
+      "timestamp": "2025-12-14T06:00:00Z",
+      "location": {
+        "lat": 28.6139,
+        "lng": 77.209
+      }
+    },
+    {
+      "id": "search-2",
+      "query": "macbook pro",
+      "timestamp": "2025-12-14T05:45:00Z",
+      "location": {
+        "lat": 28.6304,
+        "lng": 77.2177
+      }
+    },
+    {
+      "id": "search-3",
+      "query": "samsung galaxy",
+      "timestamp": "2025-12-14T05:30:00Z",
+      "location": {
+        "lat": 28.5494,
+        "lng": 77.2501
+      }
+    },
+    {
+      "id": "search-4",
+      "query": "iphone 15 pro",
+      "timestamp": "2025-12-14T04:15:00Z",
+      "location": {
+        "lat": 28.5677,
+        "lng": 77.2431
+      }
+    },
+    {
+      "id": "search-5",
+      "query": "macbook pro",
+      "timestamp": "2025-12-14T04:00:00Z",
+      "location": {
+        "lat": 28.6519,
+        "lng": 77.1903
+      }
+    },
+    {
+      "id": "search-6",
+      "query": "headphones",
+      "timestamp": "2025-12-14T03:45:00Z",
+      "location": {
+        "lat": 28.6139,
+        "lng": 77.209
+      }
+    },
+    {
+      "id": "search-1765693586943",
+      "query": "headphones",
+      "timestamp": "2025-12-14T06:26:26.943Z",
+      "location": {
+        "lat": 20.3622787,
+        "lng": 85.8178939
+      }
+    },
+    {
+      "id": "search-1765693586963",
+      "query": "headphones",
+      "timestamp": "2025-12-14T06:26:26.963Z",
+      "location": {
+        "lat": 20.3622787,
+        "lng": 85.8178939
+      }
+    },
+    {
+      "id": "search-1765693601569",
+      "query": "iphone",
+      "timestamp": "2025-12-14T06:26:41.569Z",
+      "location": {
+        "lat": 20.3622787,
+        "lng": 85.8178939
+      }
+    },
+    {
+      "id": "search-1765693601582",
+      "query": "iphone",
+      "timestamp": "2025-12-14T06:26:41.582Z",
+      "location": {
+        "lat": 20.3622787,
+        "lng": 85.8178939
+      }
+    },
+    {
+      "id": "search-1765693659269",
+      "query": "airbuds",
+      "timestamp": "2025-12-14T06:27:39.269Z",
+      "location": {
+        "lat": 20.3622787,
+        "lng": 85.8178939
+      }
+    },
+    {
+      "id": "search-1765693659283",
+      "query": "airbuds",
+      "timestamp": "2025-12-14T06:27:39.283Z",
+      "location": {
+        "lat": 20.3622787,
+        "lng": 85.8178939
+      }
+    },
+    {
+      "id": "search-1765693665305",
+      "query": "earbuds",
+      "timestamp": "2025-12-14T06:27:45.305Z",
+      "location": {
+        "lat": 20.3622787,
+        "lng": 85.8178939
+      }
+    },
+    {
+      "id": "search-1765693665317",
+      "query": "earbuds",
+      "timestamp": "2025-12-14T06:27:45.317Z",
+      "location": {
+        "lat": 20.3622787,
+        "lng": 85.8178939
+      }
+    },
+    {
+      "id": "search-1765693984901",
+      "query": "earbuds",
+      "timestamp": "2025-12-14T06:33:04.901Z",
+      "location": {
+        "lat": 20.3622787,
+        "lng": 85.8178939
+      }
+    },
+    {
+      "id": "search-1765693984913",
+      "query": "earbuds",
+      "timestamp": "2025-12-14T06:33:04.913Z",
+      "location": {
+        "lat": 20.3622787,
+        "lng": 85.8178939
+      }
+    },
+    {
+      "id": "search-1765693995790",
+      "query": "earbuds",
+      "timestamp": "2025-12-14T06:33:15.790Z",
+      "location": {
+        "lat": 20.3622787,
+        "lng": 85.8178939
+      }
+    },
+    {
+      "id": "search-1765693995801",
+      "query": "earbuds",
+      "timestamp": "2025-12-14T06:33:15.801Z",
+      "location": {
+        "lat": 20.3622787,
+        "lng": 85.8178939
+      }
+    },
+    {
+      "id": "search-1765694017363",
+      "query": "earbuds",
+      "timestamp": "2025-12-14T06:33:37.363Z",
+      "location": {
+        "lat": 20.3622787,
+        "lng": 85.8178939
+      }
+    },
+    {
+      "id": "search-1765694017373",
+      "query": "earbuds",
+      "timestamp": "2025-12-14T06:33:37.373Z",
+      "location": {
+        "lat": 20.3622787,
+        "lng": 85.8178939
+      }
+    },
+    {
+      "id": "search-1765694022212",
+      "query": "earphones",
+      "timestamp": "2025-12-14T06:33:42.212Z",
+      "location": {
+        "lat": 20.3622787,
+        "lng": 85.8178939
+      }
+    },
+    {
+      "id": "search-1765694022223",
+      "query": "earphones",
+      "timestamp": "2025-12-14T06:33:42.223Z",
+      "location": {
+        "lat": 20.3622787,
+        "lng": 85.8178939
+      }
+    },
+    {
+      "id": "search-1765694041140",
+      "query": "mobiles",
+      "timestamp": "2025-12-14T06:34:01.140Z",
+      "location": {
+        "lat": 20.3622787,
+        "lng": 85.8178939
+      }
+    },
+    {
+      "id": "search-1765694041151",
+      "query": "mobiles",
+      "timestamp": "2025-12-14T06:34:01.151Z",
+      "location": {
+        "lat": 20.3622787,
+        "lng": 85.8178939
+      }
+    },
+    {
+      "id": "search-1765694047406",
+      "query": "mobile",
+      "timestamp": "2025-12-14T06:34:07.406Z",
+      "location": {
+        "lat": 20.3622787,
+        "lng": 85.8178939
+      }
+    },
+    {
+      "id": "search-1765694047417",
+      "query": "mobile",
+      "timestamp": "2025-12-14T06:34:07.417Z",
+      "location": {
+        "lat": 20.3622787,
+        "lng": 85.8178939
+      }
+    },
+    {
+      "id": "search-1765694051332",
+      "query": "iphone",
+      "timestamp": "2025-12-14T06:34:11.332Z",
+      "location": {
+        "lat": 20.3622787,
+        "lng": 85.8178939
+      }
+    },
+    {
+      "id": "search-1765694051342",
+      "query": "iphone",
+      "timestamp": "2025-12-14T06:34:11.342Z",
+      "location": {
+        "lat": 20.3622787,
+        "lng": 85.8178939
+      }
+    },
+    {
+      "id": "search-1765694068135",
+      "query": "iphone",
+      "timestamp": "2025-12-14T06:34:28.135Z",
+      "location": {
+        "lat": 20.3622787,
+        "lng": 85.8178939
+      }
+    },
+    {
+      "id": "search-1765694068144",
+      "query": "iphone",
+      "timestamp": "2025-12-14T06:34:28.144Z",
+      "location": {
+        "lat": 20.3622787,
+        "lng": 85.8178939
+      }
+    }
+  ],
+  "sales": [
+    {
+      "id": "sale-1",
+      "storeId": "store-1",
+      "productId": "prod-1",
+      "quantity": 2,
+      "timestamp": "2025-12-14T05:30:00Z",
+      "billId": "BILL-001"
+    },
+    {
+      "id": "sale-2",
+      "storeId": "store-2",
+      "productId": "prod-5",
+      "quantity": 1,
+      "timestamp": "2025-12-14T04:15:00Z",
+      "billId": "BILL-002"
+    },
+    {
+      "id": "sale-3",
+      "storeId": "store-3",
+      "productId": "prod-8",
+      "quantity": 3,
+      "timestamp": "2025-12-14T03:00:00Z",
+      "billId": "BILL-003"
+    }
+  ]
+}
